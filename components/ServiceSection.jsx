@@ -40,6 +40,7 @@ const ServiceSection = () => {
     </div>
  }) }
     </div>
+    <h2 className="text-3xl text-center text-gray-800 pt-8">We are available to be hired for outsourced jobs in these aformentioned roles and are happy to deliver the rating tasks on your behalf.</h2>
 
   </div>
   )
