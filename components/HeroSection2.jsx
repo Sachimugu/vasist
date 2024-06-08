@@ -10,7 +10,7 @@ const HeroSection2 = () => {
           </p> */}
 
           <p className="text-white font-extrabold text-3xl sm:text-5xl lg:text-6xl tracking-tight text-center leading-t md:leading-relaxed dark:text-white">
-            Earn a Passive Income in <span className="md:block"> Data Validation and Relevance Services. </span>
+            Earn a Passive Income in <span className="md:block"> Data Validation and Relevance Jobs. </span>
           </p>
 
           <p className="mt-6 text-lg text-slate-300 text-center max-w-3xl mx-auto dark:text-slate-400">
