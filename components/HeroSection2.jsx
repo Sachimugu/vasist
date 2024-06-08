@@ -18,12 +18,12 @@ const HeroSection2 = () => {
             
           </p>
           <div className="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm">
-            <button
+            {/* <button
               type="button"
               class="text-orange-500 px-5 py-2.5 hover:text-white border border-orange-500 hover:t-orange-500 font-bold rounded-lg text-sm  text-center dark:border-orange-300 dark:text-orange-300 dark:hover:text-white dark:hover:bg-orange-400 dark:focus:ring-orange-900"
             >
               Learn More
-            </button>
+            </button> */}
 
             <button
               type="button"
