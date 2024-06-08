@@ -13,8 +13,8 @@ const HeroSection2 = () => {
             Earn a Passive Income in <span className="md:block"> Data Validation and Relevance Jobs. </span>
           </p>
 
-          <p className="mt-6 text-lg text-slate-300 text-center max-w-3xl mx-auto dark:text-slate-400">
-           You get the job. we do the job. You get the cash. You pay us.
+          <p className="mt-6 text-[1.5rem] text-slate-300 text-center max-w-3xl mx-auto dark:text-slate-400">
+           You get the job. We do the job. You get the cash. You pay us.
             
           </p>
           <div className="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm">
