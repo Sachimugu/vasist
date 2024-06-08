@@ -13,42 +13,42 @@ function NavBar() {
   return (
     <div className="md:sticky md:top-0   md:shadow-none z-20 ">
       {/* DESKTOP */}
-      <div className=" hidden lg:block animate-in fade-in zoom-in bg-sky-300 px-48 py-4 ">
+      <div className=" hidden lg:block animate-in fade-in zoom-in bg-slate-900 px-36 py-4 ">
         <div className="flex justify-between items-center">
           <div className="flex items-end">
             <Image src="/images/logo.png" alt="logo" width={70} height={70} />
-            <p className="pb-2 -ml-2 font-bold text-sky-900 text-2xl">
+            <p className="pb-2 -ml-2 font-bold text-sky-500 text-2xl">
               Bussiness
             </p>
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             <p
-              className={`hover:text-orange-500 text-navText font-[600] cursor-pointer flex items-center gap-2`}
+              className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
             >
               Services
             </p>
             <p
-              className={`hover:text-orange-500 text-navText font-[600] cursor-pointer flex items-center gap-2`}
+              className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
             >
               Pricing
             </p>
             <p
-              className={`hover:text-orange-500 text-navText font-[600] cursor-pointer flex items-center gap-2`}
+              className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
             >
               Blog
             </p>
             <p
-              className={`hover:text-orange-500 text-navText font-[600] cursor-pointer flex items-center gap-2`}
+              className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
             >
               Contact Us
             </p>
 
             {/* <MainButton
               text="Sign up"
-              classes="bg-transparent text-navText font-[600] shadow-none rounded-normal border border-navText hover:bordeorangeone hover:text-orangete"
+              classes="bg-transparent text-slate-200 font-[600] shadow-none rounded-normal border border-navText hover:bordeorangeone hover:text-orangete"
             /> */}
 
-            <div className="flex gap-1 items-center cursor-pointer">
+            <div className="flex gap-1 items-center text-slate-200 cursor-pointer">
               <p className="font-[700]">EN</p>
               <div>
                 <ChevronDown size={15}></ChevronDown>
@@ -63,7 +63,7 @@ function NavBar() {
           menu ? " bg-sky-100 py-2 h-screen bg-opacity-[95%]" : "bg-white"
         } `}
       >
-        <div className="flex items-center  justify-between mx-[10px]">
+        <div className="flex items-center  justify-between px-4 ">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
             <div className="flex items-end">
               <Image src="/images/logo.png" alt="logo" width={60} height={60} />
@@ -99,27 +99,27 @@ function NavBar() {
             <div className="flex flex-col gap-8 mt-8 mx-4 ">
               <div className="flex gap-[20px] xl:gap-[50px] text-[16px] flex-col select-none ">
                 <p
-                  className={`hover:text-orange-500 text-navText font-[600] cursor-pointer flex items-center gap-2`}
+                  className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
                 >
                   Services
                 </p>
                 <p
-                  className={`hover:text-orange-500 text-navText font-[600] cursor-pointer flex items-center gap-2`}
+                  className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
                 >
                  Pricing
                 </p>
                 <p
-                  className={`hover:text-orange-500 text-navText font-[600] cursor-pointer flex items-center gap-2`}
+                  className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
                 >
                   Blog
                 </p>
                 <p
-                  className={`hover:text-orange-500 text-navText font-[600] cursor-pointer flex items-center gap-2`}
+                  className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
                 >
                   Contact Us
                 </p>
 
-                <div className="flex gap-1 items-center cursor-pointer">
+                <div className="flex gap-1 items-center text-slate-200 cursor-pointer">
                   <p className="font-[700]">EN</p>
                   <div>
                     <ChevronDown size={15}></ChevronDown>

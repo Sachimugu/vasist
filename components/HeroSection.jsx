@@ -6,23 +6,17 @@ const HeroSection = () => {
     // <div className="bg-sky-200 bg-bg-image  ">
     <div class="bg-sky-200 bg-opacity-30 pb-8">
       <div className="flex flex-col lg:pr-48 md:flex-row md:justify-between">
-        <div className="w-full shadow-lg my-[5rem] p-8 md:my-0 md:w-[60%] bg-sky-500 rounded-r-full md:pl-44 md:pr-8 md:py-48 flex flex-col  md:gap-8  justify-center border-r-[10px]  border-red-300 ">
-          <p className="font-medium text-sm pb-2 md:pb-0 ">BUSSINESS VIRTUAL ASSISTANT </p>
-          <p className="text-2xl md:text-4xl volkhov font-[700] md:leading-[3rem]">
+        <div className="w-full shadow-lg my-[5rem] p-8 md:my-0 md:w-[60%] bg-slate-900 rounded-r-full md:pl-44 md:pr-8 md:py-24 lg:py-48 flex flex-col  md:gap-8  justify-center border-r-[10px]  border-red-300 ">
+          <p className="font-medium text-sm md:text-lg pb-2 md:pb-0 text-slate-200 ">BUSSINESS VIRTUAL ASSISTANT </p>
+          <p className="text-2xl md:text-4xl volkhov font-[700] md:leading-[3rem] text-slate-200">
             Efficient <span className="hidden md:inline">,</span> <span className="md:hidden">and</span> Reliable <span className="hidden md:inline"> and Professional</span> {" "}
             <span className="block z-10 md:text-5xl text-orange-500">
               {" "}
               <span className=""> Support</span> at Your Fingertips
             </span>
-            {/* <Image
-                src="/images/stylish-underline.png"
-                alt="stylish underline"
-                className="-mt-4 z-0 hidden md:block"
-                width={250}
-                height={250}
-              /> */}
+           
           </p>
-          <p className="text-md md:text-xl font-medium pb-4 pt-2 md:py-0">
+          <p className="text-md md:text-xl font-medium pb-4 pt-2 md:py-0 text-slate-200">
             {" "}
             Ensure your customers receive top-notch support and attention with
             our trained customer service representatives
@@ -49,7 +43,7 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-        <div className="flex justify-center items-center -mt-4 md:mt-0  ">
+        {/* <div className="flex justify-center items-center -mt-4 md:mt-0  ">
           <div className="border-l-[10px] border-red-300  rounded-full">
             <Image
               src="/images/heroimage3.jpg"
@@ -59,7 +53,7 @@ const HeroSection = () => {
               alt="hero image"
             />
           </div>
-        </div>
+        </div> */}
       </div>
       {/* </div> */}
     </div>
