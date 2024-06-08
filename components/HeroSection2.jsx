@@ -5,28 +5,16 @@ const HeroSection2 = () => {
     <div className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 h-screen">
       <div className="max-w-[100rem] bg-purpl-500 h-screen mx-auto py-32 px-4 md:px-8">
         <div className="bg-gree-600 h-screen flex flex-col gap-8 md:gap-10">
-          <p className="text-slate-200 font-extrabold text-xl sm:text-2xl lg:text-2xl tracking-tight text-center dark:text-white ">
+          {/* <p className="text-slate-200 font-extrabold text-xl sm:text-2xl lg:text-2xl tracking-tight text-center dark:text-white ">
             BUSSINESS VIRTUAL ASSISTANT{" "}
-          </p>
+          </p> */}
 
           <p className="text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">
-            Efficient <span className="hidden md:inline">,</span>{" "}
-            <span className="md:hidden">and</span> Reliable{" "}
-            <span className="hidden md:inline"> and Professional</span>{" "}
-            <span className="block text-yellow-700 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center">
-              {" "}
-              <span className=""> Support</span> at Your Fingertips
-            </span>
+            Earn a Passive Income in Data Validation and Relevance Services.
           </p>
 
           <p className="text-slate-200 font-bold text-xl sm:text-2xl lg:text-2xl tracking-tight text-center dark:text-white">
-            {" "}
-            Ensure your customers receive top-notch support and attention with
-            our trained customer service representatives
-            <span className="hidden md:inline">
-              available to address inquiries, solve issues, and maintain strong
-              relationships
-            </span>
+           You get the job. we do the job. You get the cash. You pay us.
             
           </p>
           <div className="gap-4 flex items-center justify-center md:gap-8">
