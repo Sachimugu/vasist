@@ -3,13 +3,13 @@ import React from "react";
 const HeroSection2 = () => {
   return (
     <div className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 h-screen">
-      <div className="max-w-[100rem] bg-purpl-500 h-screen mx-auto py-32 px-4 md:px-8">
+      <div className="max-w-[100rem] bg-purpl-500 h-screen mx-auto py-40 px-4 md:px-8">
         <div className="bg-gree-600 h-screen flex flex-col gap-8 md:gap-10">
           {/* <p className="text-slate-200 font-extrabold text-xl sm:text-2xl lg:text-2xl tracking-tight text-center dark:text-white ">
             BUSSINESS VIRTUAL ASSISTANT{" "}
           </p> */}
 
-          <p className="text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">
+          <p className="text-white font-extrabold text-3xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">
             Earn a Passive Income in Data Validation and Relevance Services.
           </p>
 
