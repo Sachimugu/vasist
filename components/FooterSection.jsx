@@ -4,7 +4,7 @@ import React from "react";
 function FooterSection() {
   return (
     <section>
-      <div className="flex bg-sky-300 flex-col md:flex-row justify-between gap-8 p-4 ">
+      <div className="flex bg-slate-900 flex-col md:flex-row justify-between gap-8 p-4 ">
         <div className="hidden md:block">
           <p>
             <Image src="/images/logo.png" alt="footer logo" width={80} height={80} />
@@ -15,7 +15,7 @@ function FooterSection() {
         </div>
         <div className="flex gap-8 flex-grow justify-between">
           <div className="flex flex-col gap-4">
-            <p className="text-lightBlack font-[700] text-[1.3125rem]">
+            <p className="text-slate-200 font-[700] text-[1.3125rem]">
               Company
             </p>
             <div className="flex flex-col gap-2">
@@ -29,7 +29,7 @@ function FooterSection() {
             </div>
           </div>
           <div className="flex flex-col gap-4">
-            <p className="text-lightBlack font-[700]  text-[1.3125rem]">
+            <p className="text-slate-200 font-[700]  text-[1.3125rem]">
               Contact
             </p>
             <div className="flex flex-col gap-2">
@@ -43,7 +43,7 @@ function FooterSection() {
             </div>
           </div>
           <div className="flex flex-col gap-4">
-            <p className="text-lightBlack font-[700] text-[1.3125rem]">More</p>
+            <p className="text-slate-200 font-[700] text-[1.3125rem]">More</p>
             <div className="flex flex-col gap-2">
               <p className="text-lightGray text-[1.125rem] hover:text-orange-500  font-[500]">
                 Airlinefees

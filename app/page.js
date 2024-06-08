@@ -1,4 +1,5 @@
 import FooterSection from "@/components/FooterSection";
+import Hero from "@/components/Hero";
 import HeroSection from "@/components/HeroSection";
 import HeroSection2 from "@/components/HeroSection2";
 import LogoGroupSection from "@/components/LogoGroupSection";
@@ -15,12 +16,13 @@ export default function Home() {
   return (
     <div>
       <NavBar></NavBar>
-      <HeroSection2></HeroSection2>
+      <Hero></Hero>
+      {/* <HeroSection></HeroSection> */}
       <WhoWeare></WhoWeare>
-      {/* <TrustedSection /> */}
+      <BookNextTripSection></BookNextTripSection>
+      <TrustedSection />
       
       {/* <ServiceSection /> */}
-      <BookNextTripSection></BookNextTripSection>
       <Pricing></Pricing>
       <div className="bg-sky-50 p-8 md:px-44">
 

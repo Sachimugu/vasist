@@ -27,7 +27,7 @@ const HeroSection2 = () => {
 
             <button
               type="button"
-              class="px-6 py-3 text-lg font-bold text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 rounded-lg text-center dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800"
+              class="px-6 py-3 text-lg font-bold text-white bg-yellow-700 hover:bg-yellow-600 focus:ring-4 focus:outline-none "
             >
               Get Started
             </button>

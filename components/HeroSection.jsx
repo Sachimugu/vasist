@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    // <div className="bg-sky-200 bg-bg-image  ">
+    <div className="bg-sky-200 bg-bg-image  ">
     <div class="bg-sky-200 bg-opacity-30 pb-8">
       <div className="flex flex-col lg:pr-48 md:flex-row md:justify-between">
         <div className="w-full shadow-lg my-[5rem] p-8 md:my-0 md:w-[60%] bg-slate-900 rounded-r-full md:pl-44 md:pr-8 md:py-24 lg:py-48 flex flex-col  md:gap-8  justify-center border-r-[10px]  border-red-300 ">
@@ -43,7 +43,7 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-        {/* <div className="flex justify-center items-center -mt-4 md:mt-0  ">
+        <div className="flex justify-center items-center -mt-4 md:mt-0  ">
           <div className="border-l-[10px] border-red-300  rounded-full">
             <Image
               src="/images/heroimage3.jpg"
@@ -53,9 +53,9 @@ const HeroSection = () => {
               alt="hero image"
             />
           </div>
-        </div> */}
+        </div>
       </div>
-      {/* </div> */}
+      </div>
     </div>
   );
 };
