@@ -23,7 +23,7 @@ const services = [
 const ServiceSection = () => {
   return (
     <div className="p-8 flex flex-col items-center justify-center py-16 bg-sky-100 Md:px-44">
-    <h2 className="text-lg text-center text-gray-800 pb-8">We are an internationally diversed team of remote freelancer raters who have a robost experience working as:</h2>
+    <h2 className="text-3xl text-center text-gray-800 pb-8">We are an internationally diversed team of remote freelancer raters who have a robost experience working as:</h2>
 
     <div className="grid md:grid-cols-4 gap-4">
 
