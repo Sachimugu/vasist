@@ -25,18 +25,24 @@ function NavBar() {
             <p
               className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
             >
-              Services
+              Home
             </p>
             <p
               className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
             >
-              Pricing
+              Who we are
             </p>
             <p
               className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
             >
-              Blog
+              How we proceed
             </p>
+            <p
+              className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
+            >
+              How you benefit
+            </p>
+
             <p
               className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
             >
@@ -98,26 +104,32 @@ function NavBar() {
           <div className="my-8 select-none animate-in slide-in-from-right ">
             <div className="flex flex-col gap-8 mt-8 mx-4 ">
               <div className="flex gap-[20px] xl:gap-[50px] text-[16px] flex-col select-none ">
-                <p
-                  className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
-                >
-                  Services
-                </p>
-                <p
-                  className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
-                >
-                 Pricing
-                </p>
-                <p
-                  className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
-                >
-                  Blog
-                </p>
-                <p
-                  className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
-                >
-                  Contact Us
-                </p>
+              <p
+              className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
+            >
+              Home
+            </p>
+            <p
+              className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
+            >
+              Who we are
+            </p>
+            <p
+              className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
+            >
+              How we proceed
+            </p>
+            <p
+              className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
+            >
+              How you benefit
+            </p>
+
+            <p
+              className={`hover:text-orange-500 text-slate-200 font-[600] cursor-pointer flex items-center gap-2`}
+            >
+              Contact Us
+            </p>
 
                 <div className="flex gap-1 items-center text-slate-200 cursor-pointer">
                   <p className="font-[700]">EN</p>

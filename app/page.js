@@ -15,7 +15,7 @@ export default function Home() {
     <div>
       <NavBar></NavBar>
       <HeroSection2></HeroSection2>
-      <TrustedSection />
+      {/* <TrustedSection /> */}
       
       <ServiceSection />
       <BookNextTripSection></BookNextTripSection>
