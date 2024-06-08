@@ -9,7 +9,7 @@ const HeroSection2 = () => {
             BUSSINESS VIRTUAL ASSISTANT{" "}
           </p> */}
 
-          <p className="text-white font-extrabold text-3xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">
+          <p className="text-white font-extrabold text-3xl sm:text-5xl lg:text-6xl tracking-tight text-center leading-relaxed dark:text-white">
             Earn a Passive Income in Data Validation and Relevance Services.
           </p>
 
