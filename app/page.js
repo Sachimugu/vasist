@@ -7,6 +7,7 @@ import NewsLetterSection from "@/components/NewsLetterSection";
 import Pricing from "@/components/Pricing";
 import ServiceSection from "@/components/ServiceSection";
 import TrustedSection from "@/components/TrustedSection";
+import WhoWeare from "@/components/WhoWeare";
 import BookNextTripSection from "@/components/WhyworkWithous";
 import Image from "next/image";
 
@@ -15,9 +16,10 @@ export default function Home() {
     <div>
       <NavBar></NavBar>
       <HeroSection2></HeroSection2>
+      <WhoWeare></WhoWeare>
       {/* <TrustedSection /> */}
       
-      <ServiceSection />
+      {/* <ServiceSection /> */}
       <BookNextTripSection></BookNextTripSection>
       <Pricing></Pricing>
       <div className="bg-sky-50 p-8 md:px-44">
