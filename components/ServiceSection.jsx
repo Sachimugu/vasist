@@ -4,26 +4,26 @@ import React from 'react'
 
 const services = [
   {
-  "title": "Administrative Tasks",
+  "title": "Social Evaluation Raters",
   "description": "VAs can tackle everyday administrative burdens, including scheduling appointments, managing email..."
   },
   {
-  "title": "Customer Support",
+  "title": "Social Media Raters",
   "description": "VAs can provide excellent customer service through email, phone, or live chat. They can answer quest..."
   },
   {
-  "title": "Content Creation",
+  "title": "Ad Quality Raters",
   "description": "If you struggle to create engaging content for your website or social media, a VA can help. They ..."
   },
   {
-  "title": "Data Entry",
+  "title": "Map Search Raters",
   "description": "Keeping track of data can be a time-consuming task. VAs can handle data entry, manage spreadsheets, ..."
   }]
 
 const ServiceSection = () => {
   return (
     <div className="p-8 flex flex-col items-center justify-center py-16 bg-sky-100 Md:px-44">
-    <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 pb-8">Who we are:</h2>
+    <h2 className="text-lg text-center text-gray-800 pb-8">We are an internationally diversed team of remote freelancer raters who have a robost experience working as:</h2>
 
     <div className="grid md:grid-cols-4 gap-4">
 
