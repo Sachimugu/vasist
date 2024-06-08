@@ -4,7 +4,7 @@ const HeroSection2 = () => {
   return (
     <div className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 h-screen">
       <div className="max-w-[100rem] bg-purpl-500 h-screen mx-auto py-32 px-4 md:px-8">
-        <div className="bg-gree-600 h-screen flex flex-col gap-4 md:gap-8">
+        <div className="bg-gree-600 h-screen flex flex-col gap-8 md:gap-10">
           <p className="text-slate-200 font-extrabold text-xl sm:text-2xl lg:text-2xl tracking-tight text-center dark:text-white ">
             BUSSINESS VIRTUAL ASSISTANT{" "}
           </p>
