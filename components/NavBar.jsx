@@ -74,20 +74,20 @@ function NavBar() {
             <div className="flex items-end">
               <Image src="/images/logo.png" alt="logo" width={60} height={60} />
 
-             {menu ?"":<p className="pb-1 -ml-2 font-bold text-sky-200 text-xl ">Bussiness</p>}
+             {menu ?"":<p className="pb-1 -ml-2 font-bold text-white text-xl ">Bussiness</p>}
             </div>
           </div>
           <div className="flex items-center gap-[40px]">
             {menu ? (
               <X
-                className="cursor-pointer animate-in fade-in zoom-in text-black"
+                className="cursor-pointer animate-in fade-in zoom-in text-white"
                 onClick={toggleMenu}
                 size={30}
 
               />
             ) : (
               <AlignJustify
-                className="cursor-pointer font-semibold animate-in fade-in zoom-in"
+                className="cursor-pointer font-semibold animate-in fade-in zoom-in text-white"
                 onClick={toggleMenu}
                 size={30}
               />
