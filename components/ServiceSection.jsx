@@ -37,7 +37,7 @@ const ServiceSection = () => {
 
  {  services.map((item, index)=>{
   return <div className="flex  flex-col gap-2 bg-gray-50 p-6 justify-center items-center rounded-md shadow-md">
-      <div className='p-4 rounded-full border-2 border-slate-0 bg-slate-950 text-slate-200'>
+      <div className='p-4 rounded-full border-2 border-slate-0 bg-sky-950 text-slate-200'>
 
       {item.icon}
       </div>
