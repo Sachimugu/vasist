@@ -13,38 +13,38 @@ function NavBar() {
   return (
     <div className="md:sticky md:top-0   md:shadow-none z-20 ">
       {/* DESKTOP */}
-      <div className=" hidden lg:block animate-in fade-in zoom-in bg-sky-200 px-36 py-4 ">
+      <div className=" hidden lg:block animate-in fade-in zoom-in bg-sky-950 px-36 py-4 ">
         <div className="flex justify-between items-center">
           <div className="flex items-end">
             <Image src="/images/logo.png" alt="logo" width={70} height={70} />
-            <p className="pb-2 -ml-2 font-bold text-sky-500 text-2xl">
+            <p className="pb-2 -ml-2 font-bold text-white text-2xl">
               Bussiness
             </p>
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             <p
-              className={`hover:text-orange-500 text-slate-900 font-[600] cursor-pointer flex items-center gap-2`}
+              className={`hover:text-orange-500 text-white font-[600] cursor-pointer flex items-center gap-2`}
             >
               Home
             </p>
             <p
-              className={`hover:text-orange-500 text-slate-900 font-[600] cursor-pointer flex items-center gap-2`}
+              className={`hover:text-orange-500 text-white font-[600] cursor-pointer flex items-center gap-2`}
             >
               Who we are
             </p>
             <p
-              className={`hover:text-orange-500 text-slate-900 font-[600] cursor-pointer flex items-center gap-2`}
+              className={`hover:text-orange-500 text-white font-[600] cursor-pointer flex items-center gap-2`}
             >
               How we proceed
             </p>
             <p
-              className={`hover:text-orange-500 text-slate-900 font-[600] cursor-pointer flex items-center gap-2`}
+              className={`hover:text-orange-500 text-white font-[600] cursor-pointer flex items-center gap-2`}
             >
               How you benefit
             </p>
 
             <p
-              className={`hover:text-orange-500 text-slate-900 font-[600] cursor-pointer flex items-center gap-2`}
+              className={`hover:text-orange-500 text-white font-[600] cursor-pointer flex items-center gap-2`}
             >
               Contact Us
             </p>
@@ -66,10 +66,10 @@ function NavBar() {
       {/* MOBILE */}
       <div
         className={` block lg:hidden  shadow-sm w-full  fixed top-0  z-[999]   py-4 animate-in fade-in zoom-in  ${
-          menu ? "  bg-sky-200 py-2 h-screen bg-opacity-[95%]" : "bg-sky-200"
+          menu ? "  bg-sky-200 py-2 h-screen bg-opacity-[95%]" : "bg-sky-950"
         } `}
       >
-        <div className="flex items-center  justify-between px-4 ">
+        <div className="flex items-center  justify-between px-2 py-2 ">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
             <div className="flex items-end">
               <Image src="/images/logo.png" alt="logo" width={60} height={60} />

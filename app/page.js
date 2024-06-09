@@ -2,6 +2,7 @@ import FooterSection from "@/components/FooterSection";
 import Hero from "@/components/Hero";
 import HeroSection from "@/components/HeroSection";
 import HeroSection2 from "@/components/HeroSection2";
+import Heroo from "@/components/Heroo";
 import LogoGroupSection from "@/components/LogoGroupSection";
 import NavBar from "@/components/NavBar";
 import NewsLetterSection from "@/components/NewsLetterSection";
@@ -15,8 +16,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <NavBar></NavBar>
-      <Hero></Hero>
+      {/* <NavBar></NavBar> */}
+
+      <Heroo></Heroo>
       {/* <HeroSection></HeroSection> */}
       <WhoWeare></WhoWeare>
       <BookNextTripSection></BookNextTripSection>
