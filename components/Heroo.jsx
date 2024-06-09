@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 const Heroo = () => {
   return (
-    <div className="h-screen bg-sky-950">
+    <div className="h-full  lg:min-h-screen pb-24  bg-sky-950">
       <NavBar></NavBar>
       <div className="max-w-[100rem] mx-auto p-2 md:p-16">
         <div className="mt-36 sm:mt-0">
