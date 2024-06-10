@@ -36,9 +36,12 @@ function BookNextTripSection() {
   return (
     <section className="bg-sky-100 flex justify-between flex-col md:flex-row items-center p-4 md:p-8  md:pl-44 md:pr-36">
       <div>
-        <p className="hidden md:block text-lightGray text-[1.125rem] font-[600] text-left">
-          Easy and Fast
+      <p className="md:text-[3.125rem] text-[2.125rem] text-sky-950 font-[700] text-center md:text-left">
+          Operation Simple and Seamless
         </p>
+        <p className="text-center md:block text-lightGray text-[1.125rem] font-[600] md:text-left">
+          With a focus to leaving you with no stress and minimal involvement in the work, we hve curated a process that's easy to under stand and follow for you and us
+        </p> 
         {/* <p className=" text-[2.125rem] text-title font-[700] text-left">
           Why Work With Us?
         </p> */}
@@ -58,8 +61,8 @@ function BookNextTripSection() {
         <Image
           src="/images/va.png"
           alt="card with a girl on a wall"
-          width={500}
-          height={500}
+          width={700}
+          height={700}
         />
       </div>
     </section>
