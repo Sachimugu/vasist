@@ -4,7 +4,7 @@ import React from 'react'
 const W1 = () => {
   return (
     <div className="md:relative bg-sky-200  md: ">
-      <p className="md:text-[3.125rem] text-[1.825rem] leading-9 md:leading-0 px-2 py-3  text-sky-950 font-[700] text-center md:py-4 md:px-16">
+      <p className="md:text-[3.125rem] text-[1.825rem] leading-9 md:leading-0 px-2 py-3  text-sky-950 font-[700] text-center md:py-8 md:px-16">
          REMOTE RATERS: HELPING YOU EARN A PASSIVE INCOME
         </p>
       <div class="bg-sky-200 bg-opacity-30 py-2 w-[100%] md:w-[60%] lg:py-8">
