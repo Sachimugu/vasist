@@ -1,9 +1,11 @@
 import BookNextTripSection2 from "@/components/BookNextTripSection";
+import ContactLogos from "@/components/ContactLogos";
 import FooterSection from "@/components/FooterSection";
 import Hero from "@/components/Hero";
 import HeroSection from "@/components/HeroSection";
 import HeroSection2 from "@/components/HeroSection2";
 import Heroo from "@/components/Heroo";
+import Howwouldyo from "@/components/Howwouldyo";
 import LogoGroupSection from "@/components/LogoGroupSection";
 import NavBar from "@/components/NavBar";
 import NewsLetterSection from "@/components/NewsLetterSection";
@@ -29,15 +31,18 @@ export default function Home() {
       {/* <Hero></Hero> */}
       {/* <WhoWeare></WhoWeare> */}
       <BookNextTripSection></BookNextTripSection>
-      <BookNextTripSection2></BookNextTripSection2>
+      {/* <BookNextTripSection2></BookNextTripSection2> */}
       <TrustedSection />
+      <Howwouldyo/>
       
       {/* <ServiceSection /> */}
-      <Pricing></Pricing>
-      <div className="bg-sky-50 p-8 md:px-44">
+      {/* <Pricing></Pricing> */}
+      <ContactLogos></ContactLogos>
+      <div className="bg-sky-200 p-8 md:px-44">
 
       <NewsLetterSection></NewsLetterSection>
       </div>
+
       <FooterSection></FooterSection>
     </div>
   );
