@@ -36,7 +36,7 @@ const ServiceSection = () => {
     <div className="grid md:grid-cols-4 gap-4">
 
  {  services.map((item, index)=>{
-  return <div className="flex  flex-col gap-2 bg-gray-50 p-6 justify-center items-center rounded-md shadow-md">
+  return <div className="flex  flex-col gap-2 bg-sky p-6 justify-center items-center rounded-md shadow-md shadow-black">
       <div className='p-4 rounded-full border-2 border-slate-0 bg-sky-950 text-slate-200'>
 
       {item.icon}
