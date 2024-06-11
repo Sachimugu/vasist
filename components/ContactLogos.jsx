@@ -4,7 +4,7 @@ import React from 'react'
 const ContactLogos = () => {
   return (
     <div className='bg-sky-200'>
-        <p className="md:text-[3.125rem] text-[1.825rem] leading-9 md:leading-0 px-2 py-3  text-sky-950 font-[700] text-center md:py-8 md:px-16">
+        <p className="md:text-[3.125rem] text-[1.825rem] leading-9 md:leading-0 px-2 py-3  text-slate-900 font-[700] text-center md:py-8 md:px-16">
           Contact Us
           <br className="hidden md:block" />
         </p>

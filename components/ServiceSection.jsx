@@ -4,7 +4,7 @@ import React from 'react'
 
 const services = [
   {
-  "title": "Social Evaluation Raters",
+  "title": "Search Evaluation Raters",
   "icon":<MessageCircleCode size={40} />,
   "description": "VAs can tackle everyday administrative burdens, including scheduling appointments, managing email..."
   },
@@ -37,7 +37,7 @@ const ServiceSection = () => {
 
  {  services.map((item, index)=>{
   return <div className="flex  flex-col gap-2 bg-sky p-6 justify-center items-center rounded-md shadow-md shadow-black">
-      <div className='p-4 rounded-full border-2 border-slate-0 bg-sky-950 text-slate-200'>
+      <div className='p-4 rounded-full border-2 border-slate-0 bg-slate-900 text-slate-200'>
 
       {item.icon}
       </div>
