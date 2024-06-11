@@ -30,7 +30,7 @@ const W1 = () => {
       </div>
 
       <div>
-      <div className="md:absolute md:top-[30%] md:left-[65%] z-1 mt-2 md  ">
+      <div className="md:absolute md:top-[35%] md:left-[65%] z-1 mt-2 md  ">
           {/* <div className="border-l-[10px] border-red-300  rounded-full"> */}
             <Image
               src="/images/pb1.png"
