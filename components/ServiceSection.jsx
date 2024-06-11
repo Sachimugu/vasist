@@ -14,7 +14,7 @@ const services = [
     title: "Search Evaluation Raters",
     icon: <MessageCircleCode size={40} />,
     key1: "Search Results Evaluation",
-    key2: "Search Quries Evaluation",
+    key2: "Search Queries Evaluation",
     key3: "Search Quality Evaluation",
   },
   {
@@ -58,7 +58,7 @@ const ServiceSection = () => {
                 </div>
                 <div className="flex flex-col gap-3">
                   <p className="text-black font-bold text-lg ">{item.title}</p>
-                  <p className="tet text-gray-700 flex gap-1 items-center">
+                  <p className="tet text-gray-700 flex gap-2 items-center">
                     {" "}
                     <Loader
                       size={15}
@@ -66,10 +66,10 @@ const ServiceSection = () => {
                     />{" "}
                     {item.key1}
                   </p>
-                  <p className="t text-gray-700 flex gap-1 items-center ">
+                  <p className="t text-gray-700 flex gap-2 items-center ">
                     <Loader size={15} className="text-orange-500" /> {item.key2}
                   </p>
-                  <p className="text text-gray-700 flex gap-1 items-center ">
+                  <p className="text text-gray-700 flex gap-2 items-center ">
                     {" "}
                     <Loader size={15} className="text-orange-500" />
                     {item.key3}
