@@ -29,7 +29,7 @@ function BookNextTripSection2() {
     <section className="flex justify-between flex-col md:flex-row items-center bg-sky-100 p-4">
       <div>
        
-        <p className="md:text-[3.125rem] text-[2.125rem] text-sky-950 font-[700] text-left">
+        <p className="md:text-[3.125rem] text-[2.125rem] text-sky-900 font-[700] text-left">
           Why Work With Us
         </p>
 

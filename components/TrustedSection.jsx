@@ -21,7 +21,7 @@ const brands = [
 ];
 const TrustedSection = () => {
   return (
-    <section className="bg-sky-200 pt-8">
+    <section className="bg-sky-100 pt-8 shadow-sm shadow-black">
       <div className="container mx-auto px-4">
         <h2 className=" text-2xl md:text-3xl font-bold text-center text-gray-800">Trusted Partners</h2>
           <LogoGroupSection></LogoGroupSection>

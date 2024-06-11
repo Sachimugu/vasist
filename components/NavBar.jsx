@@ -127,16 +127,14 @@ function NavBar() {
               How You Benefit
             </p>
 
-            <p
-              className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
+           
+
+            <button
+              type="button"
+              class="  px-6 py-3 text-lg font-bold text-white bg-orange-500 hover:bg-orange-600 focus:ring-4  rounded-full focus:outline-none "
             >
               Contact Us
-            </p>
-
-            <button className="md:text-[3.125rem] rounded-full bg-orange-500 p-4 text-[1.525rem] leading-9 md:leading-0 px-4 py-3  text-white font-[700] text-center md:py-8 md:px-16">
-          Contact Us
-          <br className="hidden md:block" />
-        </button>
+            </button>
 
                
               </div>

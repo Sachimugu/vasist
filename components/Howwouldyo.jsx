@@ -5,7 +5,7 @@ const Howwouldyo = () => {
   return (
     <div className="md:relative bg-sky-100  pb-4 md:flex justify-center items-center">
       <div className=" md:w-[70%]">
-        <p className="md:text-[3.125rem] text-[1.825rem] leading-9 md:leading-0 px-2 py-3  text-sky-950 font-[700] text-center md:py-16 md:px-16">
+        <p className="md:text-[3.125rem] text-[1.825rem] leading-9 md:leading-0 px-2 py-3  text-slate-900 font-[700] text-center md:py-16 md:px-16">
           How Do The Job You Get The Cash
         </p>
         <p className="text-sky-950 md:text-2xl px-2 text-center ">
