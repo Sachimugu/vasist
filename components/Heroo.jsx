@@ -12,9 +12,9 @@ const Heroo = () => {
             Raters for Data Validation and Search Relevance Evaluation
           </p>
           <p className="text-sm md:text-2xl  text-center p-4 leading-6 md:px-16 text-white">
-            In the world where real income is fast shrinking, <span className="text-sky-500 text-sm md:text-2xl leading-6">creating multiple
-            streams of incomes</span> becomes imperative. There are remote online data
-            validation and search releveance job in your locale. <span className="text-orange-500 text-sm md:text-2xl leading-6">
+            In a world where real income is fast shrinking, <span className="text-sky-500 text-sm md:text-2xl leading-6">creating multiple
+            streams of income</span> becomes imperative. There are remote online data
+            validation and search releveance jobs in your locale. <span className="text-orange-500 text-sm md:text-2xl leading-6">
             You get the
             job. We do the job. You get the cash you pay us. You pay us.
               </span>
