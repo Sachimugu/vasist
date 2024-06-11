@@ -4,7 +4,7 @@ import React from 'react'
 const W1 = () => {
   return (
     <div className="md:relative bg-sky-50  md: ">
-      <p className="md:text-[3.125rem] text-[1.825rem] leading-9 md:leading-0 px-2 py-3  text-sky-950 font-[700] text-center md:py-8 md:px-16">
+      <p className="md:text-[3.125rem] text-[1.825rem] leading-9 md:leading-normal px-2 py-3  text-sky-950 font-[700] text-center md:py-8 md:px-16">
          REMOTE RATERS: HELPING YOU EARN A PASSIVE INCOME
         </p>
       <div class="bg-sky-50 bg-opacity-30 py-2 w-[100%] md:w-[60%] lg:py-8">
@@ -30,7 +30,7 @@ const W1 = () => {
       </div>
 
       <div>
-      <div className="md:absolute md:top-[25%] md:left-[65%] z-1 mt-2 md  ">
+      <div className="md:absolute md:top-[30%] md:left-[65%] z-1 mt-2 md  ">
           {/* <div className="border-l-[10px] border-red-300  rounded-full"> */}
             <Image
               src="/images/pb1.png"
