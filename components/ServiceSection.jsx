@@ -6,7 +6,7 @@ const services = [
   {
   "title": "Search Evaluation Raters",
   "icon":<MessageCircleCode size={40} />,
-  "description": "VAs can tackle everyday administrative burdens, including scheduling appointments, managing email..."
+  "description": "VAs can tackle everyday administrative burdens, including scheduling appointments, managing ..."
   },
   {
   "title": "Social Media Raters",
