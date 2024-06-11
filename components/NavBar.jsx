@@ -43,12 +43,15 @@ function NavBar() {
               How You Benefit
             </p>
 
-            <p
+            {/* <p
               className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
             >
               Contact Us
-            </p>
-
+            </p> */}
+            <button className="rounded-full bg-orange-500 px-4 hover:bg-orange-600  leading-9 md:leading-0   text-sky-950 font-[700] text-center ">
+          Contact Us
+          <br className="hidden md:block" />
+        </button>
             {/* <MainButton
               text="Sign up"
               classes="bg-transparent text-slate-900 font-[600] shadow-none rounded-normal border border-navText bordeorangeone thover:ext-oorangethover:7"
@@ -127,6 +130,11 @@ function NavBar() {
             >
               Contact Us
             </p>
+
+            <button className="md:text-[3.125rem] rounded-full bg-orange-500 p-4 text-[1.525rem] leading-9 md:leading-0 px-4 py-3  text-sky-950 font-[700] text-center md:py-8 md:px-16">
+          Contact Us
+          <br className="hidden md:block" />
+        </button>
 
                
               </div>
