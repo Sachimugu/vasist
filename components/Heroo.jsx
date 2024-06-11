@@ -16,7 +16,7 @@ const Heroo = () => {
             streams of income</span> becomes imperative. There are remote online data
             validation and search relevance jobs in your locale. <span className="block text-orange-500 text-sm md:text-2xl leading-6">
             You get the
-            job. We do the job. You get the cash you pay us. You pay us.
+            job. We do the job. You get the cash. You pay us. You pay us.
               </span>
           </p>
           <div className="md:-ml-16  mt-6 md:mt-10 sm:mt-10 flex justify-center space-x-6 text-sm">
