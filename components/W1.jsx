@@ -11,9 +11,9 @@ const W1 = () => {
             <p className="font-bold text-slate-900 text-lg md:text-2xl">
               Here for You
             </p>
-            <p className="text-slate-900 md:text-2xl">
-              RemoteRaters onsists of an internationally diversed team of remote
-              freelance ratccs who have a robust experience working across the
+            <p className="text-gray-700 md:text-2xl">
+              RemoteRaters consists of an internationally diversed team of remote
+              freelance raters who have a robust experience working across the
               broad areas of data validation and search relevance
             </p>
           </div>
