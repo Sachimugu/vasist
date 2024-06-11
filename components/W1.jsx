@@ -12,7 +12,7 @@ const W1 = () => {
               Here for You
             </p>
             <p className="text-slate-900 md:text-2xl">
-              Remote Rater Consist of an internationally diversed team of remote
+              RemoteRater Consist of an internationally diversed team of remote
               freelance rates who have a robust experience working across the
               broad areas of data validation and search relevance
             </p>
