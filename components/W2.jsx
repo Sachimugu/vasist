@@ -3,8 +3,8 @@ import React from 'react'
 
 const W2 = () => {
   return (
-    <div><div className="md:relative bg-sky-50  md: ">
-    <div class="bg-sky-50 bg-opacity-30 py-2 w-[100%] md:w-[60%] md:ml-auto lg:py-8">
+    <div><div className="md:relative bg-sky-100  md: ">
+    <div class="bg-sky-100 bg-opacity-30 py-2 w-[100%] md:w-[60%] md:ml-auto lg:py-8">
       <div className=" sm:mt-0 max-w-[100rem]  border-2 border-sky-950 flex mr-auto md:py-0 lg:py-8 items-center rounded-l-full text-white -300 justify-center border-r-[10px]">
         <div className="bg-gree-600 flex flex-col gap-0 md:gap-2 lg:gap-6 py-12 px-5 md:py-24 lg:32 lg:px-16">
          
