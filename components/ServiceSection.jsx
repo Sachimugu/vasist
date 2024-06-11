@@ -58,7 +58,7 @@ const ServiceSection = () => {
                 </div>
                 <div>
                   <p className="text-black font-bold text-lg ">{item.title}</p>
-                  <p className="teft text-gray-700 flex gap-1 items-center">
+                  <p className="tet text-gray-700 flex gap-1 items-center">
                     {" "}
                     <Loader
                       size={15}
