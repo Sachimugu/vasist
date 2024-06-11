@@ -30,7 +30,7 @@ const services = [
 const ServiceSection = () => {
   return (
     <div>
-    <div className="p-8 flex flex-col items-center justify-center py-2 bg-sky-200 Md:px-44">
+    <div className="p-8 flex flex-col items-center justify-center py-2 bg-sky-50 Md:px-44">
     {/* <h2 className="text-3xl text-center text-gray-800 pb-8">We are an internationally diversed team of remote freelancer raters who have a robost experience working as:</h2> */}
 
     <div className="grid md:grid-cols-4 gap-4">
