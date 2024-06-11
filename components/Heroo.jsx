@@ -18,7 +18,7 @@ const Heroo = () => {
           <div className="md:-ml-16  mt-8 md:mt-16 sm:mt-10 flex justify-center space-x-6 text-sm">
               <button
                 type="button"
-                class="  px-6 py-3 text-lg font-bold text-white bg-orange-500 hover:bg-orange-600 focus:ring-4  rounded-md focus:outline-none "
+                class="  px-6 py-3 text-lg font-bold text-white bg-yellow-700 hover:bg-yellow-800 focus:ring-4  rounded-md focus:outline-none "
               >
                 Get Started
               </button>

@@ -18,7 +18,7 @@ function NavBar() {
           <div className="flex items-center">
             <Image src="/images/logo.png" alt="logo" width={70} height={70} />
             <p className="pb-2 -ml-2 font-bold text-sky-500 text-2xl">
-              Remote<span className="text-orange-500">Raters</span>
+              Remote<span className="text-yellow-700">Raters</span>
             </p>
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
@@ -75,7 +75,7 @@ function NavBar() {
               <Image src="/images/logo.png" alt="logo" width={60} height={60} />
 
              {menu ?"":<p className="pb-1  font-bold text-sky-500 text-2l">
-              Remote<span className="text-orange-500">Raters</span>
+              Remote<span className="text-yellow-700">Raters</span>
             </p>}
             </div>
           </div>
