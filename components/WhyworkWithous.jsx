@@ -34,14 +34,15 @@ function BookNextTripSection() {
     },
   ];
   return (
-    <section className="bg-sky-100 flex justify-between flex-col md:flex-row items-center p-4 md:p-8  md:pl-44 md:pr-36">
-      <div>
-      <p className="md:text-[3.125rem] text-[2.125rem] text-sky-950 font-[700] text-center md:text-left">
+    <section className="bg-sky-100 ">
+      <p className="md:text-[3.125rem] text-[2.125rem] text-slate-950 font-[700] text-center ">
           Operation Simple and Seamless
         </p>
-        <p className="text-center md:block text-lightGray text-[1.125rem] font-[600] md:text-left">
+        <p className="text-center  md:block text-slate-700 text-[1.125rem] md:font-[600] p-2 md:px-16">
           With a focus to leaving you with no stress and minimal involvement in the work, we hve curated a process that's easy to under stand and follow for you and us
         </p> 
+      <div className="flex justify-between flex-col md:flex-row items-center p-4 md:p-8  md:pl- md:pr">
+        <div>
         {/* <p className=" text-[2.125rem] text-title font-[700] text-left">
           Why Work With Us?
         </p> */}
@@ -64,6 +65,7 @@ function BookNextTripSection() {
           width={700}
           height={700}
         />
+      </div>
       </div>
     </section>
   );

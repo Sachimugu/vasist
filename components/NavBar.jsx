@@ -17,7 +17,7 @@ function NavBar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <Image src="/images/logo.png" alt="logo" width={70} height={70} />
-            <p className="pb-2 -ml-2 font-bold text-sky-500 text-2xl">
+            <p className="pb-2 -ml-2 font-bold text-sky-500 text-3xl">
               Remote<span className="text-orange-500">Raters</span>
             </p>
           </div>
@@ -70,11 +70,13 @@ function NavBar() {
         } `}
       >
         <div className="flex items-center  justify-between px-2 py-2 ">
-          <div className="flex gap-[50px] text-[16px] items-center select-none">
+          <div className="flex  text-[16px] items-center select-none">
             <div className="flex items-center">
               <Image src="/images/logo.png" alt="logo" width={60} height={60} />
 
-             {menu ?"":<p className="pb-1  font-bold text-sky-500 text-2l">
+             {menu ?<p className="-ml-2  font-bold text-sky-500 text-2xl">
+              Remote<span className="text-orange-500">Raters</span>
+            </p>:<p className="-ml-2  font-bold text-sky-500 text-2xl">
               Remote<span className="text-orange-500">Raters</span>
             </p>}
             </div>

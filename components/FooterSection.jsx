@@ -14,7 +14,7 @@ function FooterSection() {
               height={120}
             />
           </p>
-          <p className="text-sm text-slate-500 mt-[1.19rem] pb-2 text-center">
+          <p className="text-sm text-slate-200 mt-[1.19rem] pb-2 text-center">
             We are a work from home employee who work online and evalute contents
             online <span className="hidden md:block"></span> providing quality checks and
             judgements
