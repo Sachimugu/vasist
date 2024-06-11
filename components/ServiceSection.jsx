@@ -56,7 +56,7 @@ const ServiceSection = () => {
                 <div className="p-4 rounded-full border-2 border-slate-0 bg-slate-900 text-slate-200">
                   {item.icon}
                 </div>
-                <div>
+                <div className="flex flex-col gap-3">
                   <p className="text-black font-bold text-lg ">{item.title}</p>
                   <p className="tet text-gray-700 flex gap-1 items-center">
                     {" "}
