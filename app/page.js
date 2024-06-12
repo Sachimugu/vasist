@@ -35,8 +35,8 @@ export default function Home() {
       {/* <WhoWeare></WhoWeare> */}
       <BookNextTripSection></BookNextTripSection>
       {/* <BookNextTripSection2></BookNextTripSection2> */}
-      <TrustedSection />
       <Howwouldyo/>
+      <TrustedSection />
       
       {/* <ServiceSection /> */}
       {/* <Pricing></Pricing> */}
