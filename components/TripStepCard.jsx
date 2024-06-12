@@ -10,7 +10,7 @@ function TripStepCard({ iconUrl, title, description }) {
         {/* <Image src='/images/destination-icon.png' alt="step icon" height={50} width={50} /> */}
       </div>
       <div className="flex flex-col">
-        <p className="text-slate-600 text-[1rem] font-[700]">{title}</p>
+        <p className="text-slate-900 text-[1rem] font-[700]">{title}</p>
         <p className="text-slate-600 text-[1rem] font-[400]">{description}</p>
       </div>
     </div>
