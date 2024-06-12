@@ -8,7 +8,7 @@ const Howwouldyo = () => {
         <p className="md:text-[3.125rem] text-[1.825rem] leading-normal md:leading-0 px-2 p  text-slate-900 font-[700] text-center md:py-8 md:px-8">
           How Do The Job You Get The Cash
         </p>
-        <p className="text-sky-950 md:text-2xl px-2 text-center ">
+        <p className="text-sky-950 md:text-2xl px-2 md:px-4 text-center ">
           This is an income opportunity that will not interfere with your time
           or main source of income. You benefit by halving an added source of
           passive income at no extra cost; While our team of experts complete
