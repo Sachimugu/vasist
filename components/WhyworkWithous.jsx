@@ -9,7 +9,7 @@ function BookNextTripSection() {
       iconUrl: "/images/destination-icon.png",
       title: "Research Job Opportunities",
       description:
-        "We research and update you on what compaines in your location are currently recruiting in your location Raters and the job tole. it is also fine if you already have this information. ",
+        "We research and update you on which compaines are currently recruiting Raters in your location and the job role. it is also fine if you already have this information.",
     },
     {
       id: 1,
@@ -39,15 +39,15 @@ function BookNextTripSection() {
           Operation Simple and Seamless
         </p>
         <p className="text-center  md:block text-slate-600 text-[1.125rem] md:font-[500] md:px-16">
-          With a focus to leaving you with no stress,  we have curated a process that's easy to understand and follow.
+          With a focus to leaving you with no stress, we have curated a process that's easy for you to understand and follow.
         </p> 
-      <div className="flex justify-between flex-col md:flex-row items-center p-4 md:p-8  md:pl- md:pr">
+      <div className="flex justify-between flex-col md:flex-row items-center p-6 md:px-8  md:pl- md:pr">
         <div>
         {/* <p className=" text-[2.125rem] text-title font-[700] text-left">
           Why Work With Us?
         </p> */}
 
-        <div className="flex flex-col gap-[3rem] mt-[1.94rem]">
+        <div className="flex flex-col gap-6 ">
           {steps.map((step) => (
             <TripStepCard
               key={step.id}
