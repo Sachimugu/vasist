@@ -47,7 +47,7 @@ function BookNextTripSection() {
           Why Work With Us?
         </p> */}
 
-        <div className="flex flex-col gap-6 ">
+        <div className="flex flex-col gap-[3rem] mt-[1rem] ">
           {steps.map((step) => (
             <TripStepCard
               key={step.id}
