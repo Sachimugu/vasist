@@ -35,10 +35,10 @@ function BookNextTripSection() {
   ];
   return (
     <section className="bg-sky-100 ">
-      <p className="md:text-[3.125rem] text-[2.125rem] text-slate-950 font-[700] text-center ">
+      <p className=" md:text-[2.725rem] text-[1.525rem] leading-9 md:leading-normal px-2 py-3  text-slate-900 font-[700] text-center md:py-8 md:px-16 ">
           Operation Simple and Seamless
         </p>
-        <p className="text-center  md:block text-slate-700 text-[1.125rem] md:font-[600] p-2 md:px-16">
+        <p className="text-center  md:block text-slate-700 text-[1.125rem] md:font-[600] md:px-16">
           With a focus to leaving you with no stress and minimal involvement in the work, we hve curated a process that's easy to under stand and follow for you and us
         </p> 
       <div className="flex justify-between flex-col md:flex-row items-center p-4 md:p-8  md:pl- md:pr">

@@ -17,13 +17,13 @@ const W2 = () => {
           </div>
         </div>
         <div>
-          <div className="md:absolute   md:top-[-5%] md:right-[60%] z-1 mt-2 md flex items-center justify-center ">
+          <div className="md:absolute   md:top-[-1%] md:right-[60%] z-1 mt-2 md flex items-center justify-center ">
             {/* <div className="border-l-[10px] border-red-300  rounded0full"> */}
             <Image
               src="/images/h2.png"
               className=" "
-              width={500}
-              height={500}
+              width={450}
+              height={450}
               alt="hero image"
             />
           </div>
