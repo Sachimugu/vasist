@@ -16,7 +16,7 @@ function BookNextTripSection() {
       iconUrl: "/images/payment-icon.png",
       title: "Application",
       description:
-        "You apply for the role or you provide us the information to do so on your behalf if you so wish. If application is unsuccessful, you may need to reapply",
+        "You apply for the role or you provide us the information to do so on your behalf if you so wish. If application is unsuccessful, you may need to reapply.",
     },
     {
       id: 2,
