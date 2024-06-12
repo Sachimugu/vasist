@@ -38,7 +38,7 @@ function BookNextTripSection() {
       <p className=" md:text-[2.725rem] text-[1.525rem] leading-9 md:leading-normal px-2 py-3  text-slate-900 font-[700] text-center md:py-8 md:px-16 ">
           Operation Simple and Seamless
         </p>
-        <p className="text-center  md:block text-slate-700 text-[1.125rem] md:font-[600] md:px-16">
+        <p className="text-center  md:block text-slate-600 text-[1.125rem] md:font-[500] md:px-16">
           With a focus to leaving you with no stress and minimal involvement in the work, we have curated a process that's easy to understand and follow for you and us.
         </p> 
       <div className="flex justify-between flex-col md:flex-row items-center p-4 md:p-8  md:pl- md:pr">
