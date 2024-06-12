@@ -39,7 +39,7 @@ function BookNextTripSection() {
           Operation Simple and Seamless
         </p>
         <p className="text-center  md:block text-slate-600 text-[1.125rem] md:font-[500] md:px-16">
-          With a focus to leaving you with no stress and minimal involvement in the work, we have curated a process that's easy to understand and follow for you and us.
+          With a focus to leaving you with no stress,  we have curated a process that's easy to understand and follow.
         </p> 
       <div className="flex justify-between flex-col md:flex-row items-center p-4 md:p-8  md:pl- md:pr">
         <div>
