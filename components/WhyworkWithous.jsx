@@ -9,7 +9,7 @@ function BookNextTripSection() {
       iconUrl: "/images/destination-icon.png",
       title: "Research Job Opportunities",
       description:
-        "We research and update you on which compaines are currently recruiting Raters in your location and the job role. it is also fine if you already have this information.",
+        "We research and update you on which compaines are currently recruiting raters in your location and the job role. It is also fine if you already have this information.",
     },
     {
       id: 1,
