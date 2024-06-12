@@ -30,7 +30,7 @@ function BookNextTripSection() {
       iconUrl: "/images/destination-icon.png",
       title: "Documentation and Onboarding",
       description:
-        "If test is passed successfully, you complete the onboarding documentation. If onboarding is successful, then we do the daily rating tasks o your behalf while you us the agreed hourly fee. ",
+        "If test is passed successfully, you complete the onboarding documentation. If onboarding is successful, then we do the daily rating tasks on your behalf while you pay us the agreed fee per hour of work.",
     },
   ];
   return (
