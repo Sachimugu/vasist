@@ -11,9 +11,9 @@ const Howwouldyo = () => {
         <p className="text-slate-900 md:text-2xl px-2 md:px-10 text ">
           This is an income opportunity that will not interfere with your time
           or main source of income. You benefit by creating an added source of
-          passive income for yourself at no extra cost, while our team of experts complete
+          passive income for yourself at no extra cost; while our team of experts complete
           the daily tasks requirement on your behalf in exchange for our agreed
-          hourly rate
+          hourly rate.
         </p>
       </div>
       <div className="flex justify-center items-center  ">
