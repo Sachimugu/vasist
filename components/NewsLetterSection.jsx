@@ -48,9 +48,9 @@ function NewsLetterSection() {
         />
       </div>
 
-      <div className="absolute -top-4 -right-4">
+      {/* <div className="absolute -top-4 -right-4">
         <img src="/images/send-shape.png" alt="send icon" />
-      </div>
+      </div> */}
 
       <div className="absolute top-0 right-0 opacity-25">
         <img

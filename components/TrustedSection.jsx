@@ -23,7 +23,7 @@ const TrustedSection = () => {
   return (
     <section className="bg-sky-100 pt-8 shadow-sm shadow-black">
       <div className="container mx-auto px-4">
-        <h2 className=" text-2xl md:text-3xl font-bold text-center text-gray-800">Trusted Partners</h2>
+        <h2 className=" text-2xl md:text-3xl font-bold text-center text-gray-800">Trusted Data Compaines</h2>
           <LogoGroupSection></LogoGroupSection>
           {/* {brands.map((brand, index) => (
             <div key={index} className="flex flex-col items-center bg-white p-6 rounded-lg shadow-md">
