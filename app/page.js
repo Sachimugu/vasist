@@ -1,3 +1,4 @@
+import AutoPlay from "@/components/Autoplay";
 import BookNextTripSection2 from "@/components/BookNextTripSection";
 import ContactLogos from "@/components/ContactLogos";
 import FooterSection from "@/components/FooterSection";
@@ -11,6 +12,7 @@ import NavBar from "@/components/NavBar";
 import NewsLetterSection from "@/components/NewsLetterSection";
 import Pricing from "@/components/Pricing";
 import ServiceSection from "@/components/ServiceSection";
+import LogoSlider from "@/components/TrustedSection";
 import TrustedSection from "@/components/TrustedSection";
 import W1 from "@/components/W1";
 import W2 from "@/components/W2";
@@ -36,7 +38,8 @@ export default function Home() {
       <BookNextTripSection></BookNextTripSection>
       {/* <BookNextTripSection2></BookNextTripSection2> */}
       <Howwouldyo/>
-      <TrustedSection />
+      {/* <TrustedSection /> */}
+      <AutoPlay></AutoPlay>
       
       {/* <ServiceSection /> */}
       {/* <Pricing></Pricing> */}
