@@ -38,7 +38,7 @@ export default function Home() {
       <BookNextTripSection></BookNextTripSection>
       {/* <BookNextTripSection2></BookNextTripSection2> */}
       <Howwouldyo/>
-      {/* <TrustedSection /> */}
+      <TrustedSection />
       <AutoPlay></AutoPlay>
       
       {/* <ServiceSection /> */}

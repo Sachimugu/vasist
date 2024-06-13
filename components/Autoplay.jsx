@@ -14,7 +14,8 @@ function AutoPlay() {
     cssEase: "linear"
   };
   return (
-    <div className="slider-container">
+    <div className="slider-container bg-sky-100">
+      
       <Slider {...settings}>
         <div className="px-2 mt-1 md:mt-0">
         <img src="/images/4.png"  alt="logo group" />
