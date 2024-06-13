@@ -4,7 +4,7 @@ import Slider from "react-slick";
 
 function AutoPlay() {
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -14,7 +14,7 @@ function AutoPlay() {
     cssEase: "linear"
   };
   return (
-    <div className="slider-container bg-sky-100">
+    <div className="slider-container bg-sky-100 pb-2">
       
       <Slider {...settings}>
         <div className="px-2 mt-1 md:mt-0">
