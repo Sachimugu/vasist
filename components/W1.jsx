@@ -3,7 +3,7 @@ import React from "react";
 
 const W1 = () => {
   return (
-    <div className="md:relative bg-sky-200   ">
+    <div className="md:relative bg-sky-200" id="">
      
       <div class=" bg-sky-200 bg-opacity-30 py- w-[100%] md:w-[60%] lg:py-8">
         <div className=" sm:mt-0 max-w-[100rem]  border-2 border-slate-900 flex mr-auto md:py-0 lg:py-8 items-center rounded-r-full text-white -300 justify-center border-r-[10px]">

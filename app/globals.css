@@ -18,3 +18,7 @@ body {
 .red-gradient {
   background: linear-gradient(180deg, #ff946d 100%, #ff7d68 100%);
 }
+
+html {
+  scroll-behavior: smooth;
+}

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { AlignJustify, ChevronDown, X } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -27,39 +28,46 @@ function NavBar() {
             >
               Home
             </p> */}
-            <p
-              className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
-            >
-              Who We Are
-            </p>
-            <p
-              className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
-            >
-              How We Proceed
-            </p>
-            <p
-              className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
-            >
-              How You Benefit
-            </p>
+            <Link href="#WhoWeAre">
+              <p
+                className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
+              >
+                Who We Are
+              </p>
+            </Link>
+
+            <Link href="#HowDoWeProceed">
+              <p
+                className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
+              >
+                How We Proceed
+              </p>
+            </Link>
+            <Link href="#benefit">
+              <p
+                className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
+              >
+                How You Benefit
+              </p>
+            </Link>
 
             {/* <p
               className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
             >
               Contact Us
             </p> */}
-            <button
-              type="button"
-              class="  px-6 py-3 text-lg font-bold text-white bg-orange-500 hover:bg-orange-600 focus:ring-4  rounded-full focus:outline-none "
-            >
-              Contact Us
-            </button>
+            <Link href="#contact">
+              <button
+                type="button"
+                class="  px-6 py-3 text-lg font-bold text-white bg-orange-500 hover:bg-orange-600 focus:ring-4  rounded-full focus:outline-none "
+              >
+                Contact Us
+              </button>
+            </Link>
             {/* <MainButton
               text="Sign up"
               classes="bg-transparent text-slate-900 font-[600] shadow-none rounded-normal border border-navText bordeorangeone thover:ext-oorangethover:7"
   orange 7> */}
-
-            
           </div>
         </div>
       </div>
@@ -74,11 +82,15 @@ function NavBar() {
             <div className="flex items-center">
               <Image src="/images/logo.png" alt="logo" width={60} height={60} />
 
-             {menu ?<p className="-ml-2  font-bold text-sky-500 text-2xl">
-              Remote<span className="text-orange-500">Raters</span>
-            </p>:<p className="-ml-2  font-bold text-sky-500 text-2xl">
-              Remote<span className="text-orange-500">Raters</span>
-            </p>}
+              {menu ? (
+                <p className="-ml-2  font-bold text-sky-500 text-2xl">
+                  Remote<span className="text-orange-500">Raters</span>
+                </p>
+              ) : (
+                <p className="-ml-2  font-bold text-sky-500 text-2xl">
+                  Remote<span className="text-orange-500">Raters</span>
+                </p>
+              )}
             </div>
           </div>
           <div className="flex items-center gap-[40px]">
@@ -87,7 +99,6 @@ function NavBar() {
                 className="cursor-pointer animate-in fade-in zoom-in text-white"
                 onClick={toggleMenu}
                 size={30}
-
               />
             ) : (
               <AlignJustify
@@ -108,37 +119,46 @@ function NavBar() {
           <div className="my-8 select-none animate-in slide-in-from-right ">
             <div className="flex flex-col gap-8 mt-8 mx-4 ">
               <div className="flex gap-[20px] xl:gap-[50px] text-[16px] flex-col select-none ">
-              {/* <p
+                {/* <p
               className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
             >
               Home
             </p> */}
-            <p
-              className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
-            >
-              Who We Are
-            </p>
-            <p
-              className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
-            >
-              How We Proceed
-            </p>
-            <p
-              className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
-            >
-              How You Benefit
-            </p>
+                <Link href="#WhoWeAre" onClick={toggleMenu}>
+                  <p
+                    className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
+                  >
+                    Who We Are
+                  </p>
+                </Link>
 
-           
+                <Link href="#HowDoWeProceed" onClick={toggleMenu}>
 
-            <button
-              type="button"
-              class="  px-6 py-3 text-lg font-bold text-white bg-orange-500 hover:bg-orange-600 focus:ring-4  rounded-full focus:outline-none "
-            >
-              Contact Us
-            </button>
+                <p
+                  className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
+                >
+                  How We Proceed
+                </p>
+                </Link>
 
-               
+                <Link href="#benefit" onClick={toggleMenu}>
+
+                <p
+                  className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
+                >
+                  How You Benefit
+                </p>
+                </Link>
+
+                <Link href='#contact' onClick={toggleMenu}>
+                <button
+                  type="button"
+                  class="  px-6 py-3 text-lg font-bold text-white bg-orange-500 hover:bg-orange-600 focus:ring-4  rounded-full focus:outline-none "
+                >
+                  Contact Us
+                </button>
+                
+                </Link>
               </div>
             </div>
           </div>
