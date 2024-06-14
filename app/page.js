@@ -45,7 +45,10 @@ export default function Home() {
 
       <TrustedSection />
       <div id="contact"></div>
+      <div className="w-full bg-sky-100">
+
       <AutoPlay></AutoPlay>
+      </div>
       
       {/* <ServiceSection /> */}
       {/* <Pricing></Pricing> */}

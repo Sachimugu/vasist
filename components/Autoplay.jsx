@@ -2,6 +2,20 @@
 import React from "react";
 import Slider from "react-slick";
 
+function SampleNextArrow() {
+  return (
+    <div
+    />
+  );
+}
+
+function SamplePrevArrow() {
+  return (
+    <div
+    />
+  );
+}
+
 function AutoPlay() {
   const settings = {
     // dots: true,
@@ -11,10 +25,12 @@ function AutoPlay() {
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 3000,
-    cssEase: "linear"
+    cssEase: "linear",
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
   return (
-    <div className="slider-container bg-sky-100 pb-2">
+    <div className="slider-container  bg-sky-100 pb-2">
       
       <Slider {...settings}>
         <div className="px-2 mt-1 md:mt-0">
