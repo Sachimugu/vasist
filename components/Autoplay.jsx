@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import React from "react";
 import Slider from "react-slick";
 
@@ -30,32 +31,66 @@ function AutoPlay() {
     prevArrow: <SamplePrevArrow />
   };
   return (
-    <div className="slider-container  bg-sky-100 pb-2">
+    <div>
+
+
+    <div className="hidden md:inline slider-container  bg-sky-100 -mb-6 -mt-6">
       
       <Slider {...settings}>
-        <div className="px-2 mt-1 md:mt-0">
-        <img src="/images/4.png"  alt="logo group" />
+        <div className="-2 mt-1 md:mt-0">
+        <Image src="/4.png" width={140} height={140}  alt="logo group" />
+
 
         </div>
-        <div  className="px-2 mt-4">
-        <img src="/images/1.jpeg"  alt="logo group" />
+        <div  className="-2 md:mt-6">
+        <Image src="/1.jpeg" width={160} height={160}  alt="logo group" />
 
         </div>
         
-        <div  className="px-2 mt-2 md:mt-0">
-        <img src="/images/2.png"  alt="logo group" />
+        <div  className="-2 mt-2 md:-mt-3">
+        <Image src="/2.png"  width={160} height={160} alt="logo group" />
 
         </div>
-        <div  className="px-2 md:mt-8 mt-2">
-        <img src="/images/5.png"  alt="logo group" />
+        <div  className="-2 md:mt-8 mt-2">
+        <Image src="/5.png"  width={200} height={200} alt="logo group" />
 
         </div>
-        <div className="px-2 mt-2 md:mt-0">
-      <img src="/images/3.png"  alt="logo group" />
+        <div className="-2 mt-2 md:mt-0">
+      <Image src="/3.png"  width={160} height={160} alt="logo group" />
           
         </div>
       
       </Slider>
+    </div>
+
+    <div className="md:hidden slider-container  bg-sky-100 -mb- -mt-2">
+      
+      <Slider {...settings}>
+        <div className="-2 mt-1 md:mt-0">
+        <Image src="/4.png" width={60} height={60}  alt="logo group" />
+
+
+        </div>
+        <div  className="-2 mt-5">
+        <Image src="/1.jpeg" width={60} height={60}  alt="logo group" />
+
+        </div>
+        
+        <div  className="-2 mt-2 md:-mt-2">
+        <Image src="/2.png"  width={60} height={60} alt="logo group" />
+
+        </div>
+        <div  className="-2 md:mt-8 mt-4">
+        <Image src="/5.png"  width={80} height={80} alt="logo group" />
+
+        </div>
+        <div className="-2 mt-2 md:mt-0">
+      <Image src="/3.png"  width={60} height={60} alt="logo group" />
+          
+        </div>
+      
+      </Slider>
+    </div>
     </div>
   );
 }

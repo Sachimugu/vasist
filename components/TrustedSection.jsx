@@ -21,7 +21,7 @@ const brands = [
 ];
 const TrustedSection = () => {
   return (
-    <section className="bg-sky-100 ">
+    <section className="bg-sky-100 -mt-12 ">
       <div className="container mx-auto px-4">
         <h2 className=" md:text-[2.725rem] text-[1.525rem] leading-9 md:leading-normal px-2 py-3  text-slate-900 font-[700] text-center md:py-8 md:px-16">Trusted Data Compaines</h2>
         
