@@ -126,7 +126,7 @@ function NavBar() {
             </p> */}
                 <Link href="#WhoWeAre" onClick={toggleMenu}>
                   <p
-                    className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
+                    className={`text-white hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
                   >
                     Who We Are
                   </p>
@@ -135,7 +135,7 @@ function NavBar() {
                 <Link href="#HowDoWeProceed" onClick={toggleMenu}>
 
                 <p
-                  className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
+                  className={`text-white hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
                 >
                   How We Proceed
                 </p>
@@ -144,7 +144,7 @@ function NavBar() {
                 <Link href="#benefit" onClick={toggleMenu}>
 
                 <p
-                  className={`text-orange-500 hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
+                  className={`text-white hover:text-orange-700 font-[600] cursor-pointer flex items-center gap-2`}
                 >
                   How You Benefit
                 </p>
