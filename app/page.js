@@ -28,7 +28,7 @@ export default function Home() {
 
       <Heroo></Heroo>
       <div id="WhoWeAre"></div>
-      <p className="bg-sky-200  md:text-[2.725rem] text-[1.525rem] leading-9 md:leading-normal px-2 py-3  text-slate-900 font-[700] text-center md:py-8 md:px-16">
+      <p className="bg-sky-200  md:text-[2.625rem] text-[1.525rem] leading-9 md:leading-9 px-2 py-3  text-slate-900 font-[700] text-center md:py-8 md:px-16">
         RemoteRaters: Helping You Earn A Passive Income
       </p>
       <W1></W1>
