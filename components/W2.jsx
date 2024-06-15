@@ -5,7 +5,7 @@ const W2 = () => {
   return (
     <div className="bg-sky-200 md:relative ">
       <div className="  bg-sky-200  md: ">
-        <div class=" bg-sky-200 bg-opacity-30 py-2 w-[100%] md:w-[60%] md:ml-auto lg:py-8">
+        <div class=" bg-sky-200 bg-opacity-30 py-2 w-[100%] md:w-[60%] md:ml-auto lg:py-10">
           <div className=" sm:mt-12 max-w-[100rem]  border-2 border-slate-900 flex mr-auto md:py-0 lg:py-8 items-center rounded-l-full text-white -300 justify-center border-l-[10px]">
             <div className="bg-gree-600 flex flex-col gap-0 md:gap-2 lg:gap-6 py-3 px-5 md:py-6 lg:32 lg:px-16">
               <p className="text-gray-700 md:text-2xl text-right">
@@ -17,13 +17,13 @@ const W2 = () => {
           </div>
         </div>
         <div>
-          <div className="md:absolute   md:top-[-1%] md:right-[60%] z-1 mt-2 md flex items-center justify-center ">
+          <div className="md:absolute   md:top-[5%] md:right-[65%] z-1 md flex items-center justify-center ">
             {/* <div className="border-l-[10px] border-red-300  rounded0full"> */}
             <Image
               src="/images/h2.png"
               className=" "
-              width={450}
-              height={450}
+              width={400}
+              height={400}
               alt="hero image"
             />
           </div>
