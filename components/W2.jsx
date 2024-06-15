@@ -3,7 +3,7 @@ import React from "react";
 
 const W2 = () => {
   return (
-    <div className="bg-sky-200 md:relative ">
+    <div className="bg-sky-200 md:relative py-4 ">
       <div className="  bg-sky-200  md: ">
         <div class=" bg-sky-200 bg-opacity-30 py-2 w-[100%] md:w-[60%] md:ml-auto lg:py-10">
           <div className=" sm:mt-12 max-w-[100rem]  border-2 border-slate-900 flex mr-auto md:py-0 lg:py-8 items-center rounded-l-full text-white -300 justify-center border-l-[10px]">
@@ -17,13 +17,13 @@ const W2 = () => {
           </div>
         </div>
         <div>
-          <div className="md:absolute   md:top-[5%] md:right-[65%] z-1 md flex items-center justify-center ">
+          <div className="md:absolute px-2  md:top-[5%] md:right-[65%] z-1 md flex items-center justify-center ">
             {/* <div className="border-l-[10px] border-red-300  rounded0full"> */}
             <Image
               src="/images/h2.png"
               className=" "
-              width={400}
-              height={400}
+              width={450}
+              height={450}
               alt="hero image"
             />
           </div>
