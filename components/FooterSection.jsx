@@ -15,7 +15,7 @@ function FooterSection() {
             />
           </p>
           <p className="text-sm text-slate-200 mt-[1.19rem] pb-2 text-center">
-            We are a team of rating expert who work online and evalute data
+            We are a team of rating experts who work online and evaluate data
              <span className="hidden text-center md:block"></span> providing quality checks and
             judgements
           </p>
