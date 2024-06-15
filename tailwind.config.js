@@ -9,6 +9,12 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    screens: {
+      'sm': '640px', // Adjust breakpoint values as needed
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+    },
     container: {
       center: true,
       padding: "2rem",

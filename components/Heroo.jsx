@@ -5,8 +5,8 @@ const Heroo = () => {
   return (
     <div className="lg:min-h-screen min-h-screen pb-5 bg-slate-900">
       <div className="max-w-[100rem] mx-auto p-2 md:p-16">
-        <div className="mt-[10%] sm:mt-0">
-          <p className="text-3xl md:text-6xl font-extrabold text-center p-4 md:px-16 md:py-10 text-white">
+        <div className="mt-[30%] sm:mt-[0]">
+          <p className="text-3xl sm:4xl md:text-6xl font-extrabold text-center p-4 md:px-16 md:py-10 text-white">
             {/* Remote Rater for Data Validation and Relevance Jobs
              */}
             Raters for Data Validation and Search Relevance Evaluation
