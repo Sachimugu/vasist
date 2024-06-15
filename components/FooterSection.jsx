@@ -15,8 +15,8 @@ function FooterSection() {
             />
           </p>
           <p className="text-sm text-slate-200 mt-[1.19rem] pb-2 text-center">
-            We are a work from home employee who work online and evalute contents
-            online <span className="hidden md:block"></span> providing quality checks and
+            We are a team of rating expert who work online and evalute data
+             <span className="hidden text-center md:block"></span> providing quality checks and
             judgements
           </p>
         </div>
