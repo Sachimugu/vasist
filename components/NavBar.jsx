@@ -73,7 +73,7 @@ function NavBar() {
       </div>
       {/* MOBILE */}
       <div
-        className={` block lg:hidden  shadow-sm  w-full fixed top-0  z-[999]   py-4 animate-in fade-in zoom-in  ${
+        className={` block lg:hidden  shadow-sm  w-full fixed top-0  z-[999]   py-2 animate-in fade-in zoom-in  ${
           menu ? "  bg-sky-200 py-2 h-screen bg-opacity-[95%]" : "bg-slate-900"
         } `}
       >
@@ -93,7 +93,7 @@ function NavBar() {
               )}
             </div>
           </div>
-          <div className="flex items-center gap-[40px]">
+          <div className="flex items-center gap-[40px] mr-2">
             {menu ? (
               <X
                 className="cursor-pointer animate-in fade-in zoom-in text-white"

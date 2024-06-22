@@ -92,6 +92,8 @@ function NewsLetterSection() {
             <Input
               type="email"
               id="email"
+              placeholder="Your email"
+
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
