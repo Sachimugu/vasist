@@ -17,7 +17,7 @@ const W2 = () => {
           </div>
         </div>
         <div>
-          <div className="md:absolute px-2  md:top-[5%] md:right-[65%] z-1 md flex items-center justify-center ">
+          <div className="md:absolute px-2  md:top-[15%] md:right-[65%] z-1 md flex items-center justify-center ">
             {/* <div className="border-l-[10px] border-red-300  rounded0full"> */}
             <Image
               src="/images/h2.png"
