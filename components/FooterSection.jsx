@@ -50,7 +50,7 @@ function FooterSection() {
                   alt="Gmail Icon"
                   className="cursor-pointer" // Add your CSS class for pointer cursor
                 />
-                Enquiries@remoteraters.com{" "}
+                enquiries@remoteraters.com{" "}
               </p>
               <p className="text-slate-400 flex gap-1 text-sm text-[1.125rem] hover:text-orange-500 font-[500]">
               <Image
