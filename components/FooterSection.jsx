@@ -1,7 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function FooterSection() {
+
+  const telegramLink = "https://t.me/remoteraters"; // Replace with your link
+
+  const whatsAppLink =
+    "https://wa.me/+14134727947?text=You%20are%20most%20warmly%20welcome%20to%20RemoteRaters%2C%20and%20we%20are%20glad%20to%20assist%20you%20with%20any%20queries%20you%20might%20have.%20Kindly%20proceed"
   return (
     <section>
       <div className="md:flex bg-slate-900  p-4 ">
@@ -42,36 +48,44 @@ function FooterSection() {
               Contact
             </p>
             <div className="flex flex-col gap-2">
-              <p className="text-slate-400  flex gap-1 text-sm text-[1.125rem] hover:text-orange-500 font-[500]">
-                <Image
-                  src="/images/gm.svg"
-                  width={11}
-                  height={11}
-                  alt="Gmail Icon"
-                  className="cursor-pointer" // Add your CSS class for pointer cursor
-                />
-                enquiries@remoteraters.com{" "}
-              </p>
-              <p className="text-slate-400 flex gap-1 text-sm text-[1.125rem] hover:text-orange-500 font-[500]">
-              <Image
-            src="/images/wh.svg"
-            width={15}
-            height={15}
-            alt="WhatsApp Icon"
-            className="cursor-pointer"
-          />
-                +14134727947
-              </p>
-              <p className="text-slate-400 flex gap-1 text-sm text-[1.125rem] hover:text-orange-500 font-[500]">
-              <Image
-            src="/images/te.svg"
-            width={15}
-            height={15}
-            alt="Telegram Icon"
-            className="cursor-pointer"
-          />
-                @remoteraters
-              </p>
+              <Link href="mailto:enquiries@remoteraters.com" target="_blank" className="text-slate-400  flex gap-1 text-sm text-[1.125rem] hover:text-orange-500 font-[500]">
+
+                  <Image
+                    src="/images/gm.svg"
+                    width={11}
+                    height={11}
+                    alt="Gmail Icon"
+                    className="cursor-pointer" // Add your CSS class for pointer cursor
+                  />
+                  enquiries@remoteraters.com{" "}
+              </Link>
+              <Link href={whatsAppLink} target="_blank">
+                <p className="text-slate-400 flex gap-1 text-sm text-[1.125rem] hover:text-orange-500 font-[500]">
+
+                  <Image
+                    src="/images/wh.svg"
+                    width={15}
+                    height={15}
+                    alt="WhatsApp Icon"
+                    className="cursor-pointer"
+                  />
+                  +14134727947
+                </p>
+              </Link>
+
+              <Link href={telegramLink} target="_blank">
+
+                <p className="text-slate-400 flex gap-1 text-sm text-[1.125rem] hover:text-orange-500 font-[500]">
+                  <Image
+                    src="/images/te.svg"
+                    width={15}
+                    height={15}
+                    alt="Telegram Icon"
+                    className="cursor-pointer"
+                  />
+                  @remoteraters
+                </p>
+              </Link>
             </div>
           </div>
         </div>

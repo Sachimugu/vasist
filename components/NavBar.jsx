@@ -16,12 +16,12 @@ function NavBar() {
       {/* DESKTOP */}
       <div className=" hidden lg:block animate-in fade-in zoom-in bg-slate-900 px-36 py-4 ">
         <div className="flex justify-between items-center">
-          <div className="flex items-center">
+          <Link href="/" className="flex items-center">
             <Image src="/images/logo.png" alt="logo" width={70} height={70} />
             <p className="pb-2 -ml-2 font-bold text-sky-500 text-3xl">
               Remote<span className="text-orange-500">Raters</span>
             </p>
-          </div>
+          </Link>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             {/* <p
               className={`text-orange-500 hover:text-orange 7ont-[600] cursor-pointer flex items-center gap-2`}

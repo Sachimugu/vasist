@@ -18,6 +18,7 @@ const ContactLogos = () => {
         <Link
           href="mailto:enquiries@remoteraters.com"
           className="hover:shadow-lg px-4 flex justify-center items-center"
+          target="_blank"
         >
           <Image
             src="/images/gm.svg"
@@ -28,7 +29,7 @@ const ContactLogos = () => {
           />
         </Link>
 
-        <Link href={whatsAppLink}  className="hover:shadow-lg px-4 flex justify-center items-center">
+        <Link href={whatsAppLink}  className="hover:shadow-lg px-4 flex justify-center items-center" target="_blank">
           <Image
             src="/images/wh.svg"
             width={100}
@@ -38,7 +39,7 @@ const ContactLogos = () => {
           />
         </Link>
 
-        <Link href={telegramLink}  className="hover:shadow-lg px-4 flex justify-center items-center">
+        <Link href={telegramLink}  className="hover:shadow-lg px-4 flex justify-center items-center" target="_blank">
           <Image
             src="/images/te.svg"
             width={100}
@@ -48,7 +49,7 @@ const ContactLogos = () => {
           />
         </Link>
 
-        <Link href="https://www.linkedin.com/company/remoteraters/about/"  className="hover:shadow-lg px-4 flex justify-center items-center shadow-white">
+        <Link href="https://www.linkedin.com/company/remoteraters/about/"  className="hover:shadow-lg px-4 flex justify-center items-center shadow-white" target="_blank">
           <Image
             src="/images/li.svg"
             width={100}

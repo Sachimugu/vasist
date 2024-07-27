@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
+import Link from "next/link";
 
 const Heroo = () => {
   return (
@@ -20,12 +21,14 @@ const Heroo = () => {
               </span>
           </p>
           <div className="md:-ml-16  mt-6 md:mt-10 sm:mt-10 flex justify-center space-x-6 text-sm">
+          <Link href="#contact">
             <button
               type="button"
               class="  px-6 py-3 text-lg font-bold text-white bg-orange-500 hover:bg-orange-600 focus:ring-4  rounded-full focus:outline-none "
             >
               Get Started
             </button>
+            </Link>
           </div>
         </div>
       </div>
