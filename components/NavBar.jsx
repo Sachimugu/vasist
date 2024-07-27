@@ -79,7 +79,7 @@ function NavBar() {
       >
         <div className="flex items-center  justify-between px-2 py-2 ">
           <div className="flex  text-[16px] items-center select-none">
-            <div className="flex items-center">
+            <Link  href="/" className="flex items-center">
               <Image src="/images/logo.png" alt="logo" width={60} height={60} />
 
               {menu ? (
@@ -91,7 +91,7 @@ function NavBar() {
                   Remote<span className="text-orange-500">Raters</span>
                 </p>
               )}
-            </div>
+            </Link>
           </div>
           <div className="flex items-center gap-[40px] mr-2">
             {menu ? (
