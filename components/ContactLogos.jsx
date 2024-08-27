@@ -6,7 +6,7 @@ const ContactLogos = () => {
   const telegramLink = "https://t.me/remoteraters"; // Replace with your link
 
   const whatsAppLink =
-    "https://wa.me/+14134727947?text=You%20are%20most%20warmly%20welcome%20to%20RemoteRaters%2C%20and%20we%20are%20glad%20to%20assist%20you%20with%20any%20queries%20you%20might%20have.%20Kindly%20proceed"; // Replace with your link
+    "https://wa.me/+2348110070275?text=You%20are%20most%20warmly%20welcome%20to%20RemoteRaters%2C%20and%20we%20are%20glad%20to%20assist%20you%20with%20any%20queries%20you%20might%20have.%20Kindly%20proceed"; // Replace with your link
 
   return (
     <div className="bg-sky-200">

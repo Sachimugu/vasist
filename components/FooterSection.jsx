@@ -69,7 +69,7 @@ function FooterSection() {
                     alt="WhatsApp Icon"
                     className="cursor-pointer"
                   />
-                  +14134727947
+                  +2348110070275
                 </p>
               </Link>
 
