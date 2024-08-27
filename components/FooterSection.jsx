@@ -80,7 +80,7 @@ function FooterSection() {
                     src="/images/te.svg"
                     width={15}
                     height={15}
-                    alt="Telegram Icon"
+                    alt="Telegram Icoon"
                     className="cursor-pointer"
                   />
                   @remoteraters
